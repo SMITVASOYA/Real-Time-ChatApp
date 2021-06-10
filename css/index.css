@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(229, 241, 241);
+}
+
+.container{
+    background-color: rgb(252, 248, 243);
+    width: 450px;
+    border-radius: 16px;
+}
+
+/* sign up form css */
+.form{
+    padding: 25px 30px;
+}
+
+.form header{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(238, 200, 200);
+}
+
+.form form{
+    margin: 20px 0px;
+}
+
+.form form .error-txt{
+    color: rgb(235, 49, 49);
+    background-color: rgb(247, 200, 200);
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.form form .fields{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form form .name-details{
+    display: flex;
+}
+
+form .name-details .fields:first-child{
+    margin-right: 20px;
+}
+form .name-details .fields:last-child{
+    /* margin-left: 0px; */
+    margin-right: 10px;
+}
+
+
+.form form .fields input{
+    outline: none;
+}
+.form form .input input {
+    height: 30px;
+    width: 95%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.form form .fields label{
+    margin-bottom: 2px;
+}
+
+.form form .image input{
+    font-size: 15px;
+}
+.form form .button input{
+    font-size: 18px;
+    border: none;
+    margin-top: 10px;
+    height: 45px;
+    font-weight: 500;
+    background-color: #333;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+   
+#eye {
+    position: absolute ;
+    right: 15px;
+    padding-top: 28px;
+    color: rgb(148, 148, 148);
+
+}
+#eye:hover{
+    
+    cursor: pointer;
+}
+.picture{
+    display: flex;
+}
+   
+
+.cameraicon{
+    background-color: black;        
+    width: fit-content;
+padding: 10px;
+margin-left: 15px;
+border-radius: 50%;
+}#camera{
+    color: white;
+}
+#camera:hover{
+    
+    color: rgb(226, 225, 225);
+     cursor: pointer;
+}
+.form .link{
+    text-align: center;
+    font-size: 17px;
+    margin: 10px 0px;
+}
+
+.form .link a{
+    color: #333;
+}
+.form .link a:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+
+/* login page css */

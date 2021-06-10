@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Popins',sans-serif;
+}
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background-color: #dddddd ;
+}
+label{
+    padding-top: 12px;
+    margin-left: 10px;
+}
+.wrapper{
+background-color: #fff;
+border-radius: 10px;
+margin: 10px;
+padding: 10px;
+width: fit-content;
+box-shadow : 0 0 128px 0 rgba(0, 0 , 0,0.1 ), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.error {
+    background-color: rgba(255, 0 , 0,0.1 );
+    text-align: center;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 8px;
+    color: red;
+  
+}
+.header {
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px  solid rgba(0, 0 , 0,0.1 )
+    }
+   
+#eye {
+        position: absolute;
+        right: 15px;
+        padding-top: 42px;
+        color: black;
+    }
+#eye:hover{
+        color: rgb(148, 148, 148);
+        cursor: pointer;
+    }
+#camera{
+        color: white;
+    }
+#camera:hover{
+        
+        color: rgb(226, 225, 225);
+         cursor: pointer;
+    }
+    .picture{
+        display: flex;
+    }
+.cameraicon{
+        background-color: black;        
+        width: fit-content;
+    padding: 10px;
+    margin-left: 15px;
+border-radius: 50%;
+}
+button{
+    background-color: rgb(32, 32, 32);
+    align-items: center;
+    color: #fff;
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 15 px;
+    outline: 0;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+    background-color: rgb(63, 63, 63);
+ 
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #BABECC;
+       cursor: pointer;
+}
+
+.feild{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    position: relative;
+    
+}
+.details{
+   display: flex;
+   width: fit-content;
+
+}
+.feild input{
+    padding: 7px;
+    margin: 5px;
+border-radius: 7px;
+outline: 0;
+border: 2px solid rgb(83, 83, 83);
+
+
+}
+.link{
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+a:hover{
+    color: black;
+}
